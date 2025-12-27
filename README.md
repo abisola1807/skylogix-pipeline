@@ -69,7 +69,11 @@ Weather & Logistics Correlation
 7. Outcome
 •	The pipeline delivers a production-ready, analytics-enabled weather dataset that supports real-time monitoring and operational decision-making.
 
-8. Technologies Used
+8. Dashboard (Streamlit)
+This project includes a Streamlit dashboard for exploring weather trends, extreme events, and weather–logistics impact.
+
+
+9. Technologies Used
 •	Python
 •	MongoDB
 •	PostgreSQL
