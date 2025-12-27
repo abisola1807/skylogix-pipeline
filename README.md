@@ -81,5 +81,5 @@ This project includes a Streamlit dashboard for exploring weather trends, extrem
 •	SQL
 •	GitHub
 •	VS Code (WSL)
-
+.
 
