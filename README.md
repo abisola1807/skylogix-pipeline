@@ -60,7 +60,11 @@ Example Queries
 •	Weather vs logistics delay analysis (JOIN with trips table)
 
 6. Assumptions
-•	Weather conditions such as high wind or rainfall can be correlated with increased delivery delays, enabling proactive logistics planning.
+•	- Real logistics trip data was not available; therefore, a simulated `logistics_trips` table was created.
+•	- This assumption allowed testing of joins, analytics queries, and downstream insights without dependency on external systems. 
+Weather & Logistics Correlation
+•	Weather observations are joined with logistics trip data using city-level matching and a 15-minute time window to account for ingestion latency.
+•	This enables analysis of whether weather conditions (e.g. wind, rain, cloud cover) correlate with delivery delays. Sample results show delayed trips in Lagos and Johannesburg even under mild weather conditions, demonstrating the model’s ability to support root-cause analysis beyond weather alone.
 
 7. Outcome
 •	The pipeline delivers a production-ready, analytics-enabled weather dataset that supports real-time monitoring and operational decision-making.
